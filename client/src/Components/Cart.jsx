@@ -17,7 +17,7 @@ export default function Cart(Props){
         // console.log("The form values are", formValues);
         
         try {
-          const response = await fetch("http://localhost:8080/cart", {
+          const response = await fetch("https://week7-food-order-app.onrender.com/cart", {
             method: "POST", // This is where we set the POST HTTP verb
             headers: {
                 "Content-Type": "application/json", // This tells the server we're sending stringified JSON data

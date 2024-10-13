@@ -12,7 +12,7 @@ export default function TrackOrder(){
       
       try{  
         //fetch data async await
-        const response = await fetch(`http://localhost:8080/track?orderid=${oid}`);
+        const response = await fetch(`https://week7-food-order-app.onrender.com/track?orderid=${oid}`);
         //turn the data into json
         const data = await response.json();
       
