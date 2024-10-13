@@ -1,0 +1,23 @@
+#ind-big-prd{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    text-align: left;
+    margin-top: 5%;
+}
+
+#prd-text{
+    margin-top: 5%;
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+#quantity {
+    width: 30px;
+    height: 25px; /* Specified height */
+  }
+  

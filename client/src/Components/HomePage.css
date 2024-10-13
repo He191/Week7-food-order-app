@@ -1,0 +1,7 @@
+#home-page{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 5%;
+}
